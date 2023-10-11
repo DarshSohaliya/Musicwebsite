@@ -1,0 +1,463 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: black;
+}
+.heada{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5%;
+}
+.h1main{
+    display: flex;
+    gap: 5%; 
+    list-style: none; 
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 800;
+}
+.fbutton{
+    color: white;
+    background-color: #2a292a;
+    padding-top: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 7px;
+    border-radius: 10px;
+    cursor: pointer; 
+    font-weight: 700;
+}
+.fimge{
+    list-style: none;
+}
+/* .onear{
+    display: flex;
+    justify-content: space-evenly;
+} */
+.mdiv{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    list-style: none;
+    
+}
+.fdiv{
+    list-style: none;
+    margin-top: 5%;   
+}
+.p1{
+    margin-top: 20px;
+    color: aliceblue;
+    font-size: 20px;
+}
+.p2{
+    margin-top: 20px;
+    font-weight: 500;
+    color: aliceblue;
+    line-height: 25px;
+}
+.sbutton{
+    margin-top: 10%;
+    background-color: #2a292a;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+    color: aliceblue;
+    font-weight: 700;
+    margin-right: 20%;
+    margin-top: 3%;
+    cursor: pointer;
+    display: flex;
+}
+.add{
+    margin-left: 5%;
+}
+.mimge{
+        display: flex;
+           
+}
+.top{
+    position: relative;
+    top: 0;
+    margin-top: -200px;
+
+}
+.comlo{
+    margin-top: 3%;
+    display: flex;
+    gap: 10%;
+     margin-left: 23%;
+     list-style: none;
+}
+.specs{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+.specsi{
+    display: flex;
+    justify-content: center;
+}
+.heads{
+    list-style: none;
+    display: flex;
+    margin: 8%;
+}
+.future{
+    list-style: none;
+    color: white;
+    font-weight: 400;
+    margin:8%;
+    margin: 8%;
+    
+    
+}
+.blu{
+      display: flex;
+}
+.bluf{
+    margin-left: 5%;
+}
+.bluimg{
+    width: 20px;
+    height: 30px;
+}
+.bett{
+    display: flex;
+    margin-top: 10%;
+}
+.bettf{
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.bettimg{
+    width: 20px;
+    height: 30px;
+    margin-bottom: 5%;
+}
+.char{
+    display: flex;
+    margin-top: 10%;
+}
+.charf{
+    margin-left: 5%;
+
+}
+.charimg{
+    width: 20px;
+    height: 30px;
+}
+.mero{
+    display: flex;
+    margin-top: 10%;
+}
+.merof{
+    margin-left: 5%;
+}
+.meroimg{
+    width: 20px;
+    height: 30px;
+
+}
+.case{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.midal2{
+    display: flex;
+    justify-content:center;
+    gap: 8%;
+    margin-top: 3%;
+}
+.midal2{
+    margin-top: 4%;
+}
+.p3{
+    margin-top: 30%; 
+    color: aliceblue;
+    font-size: medium;
+    font-weight: 500;
+    line-height: 25px;
+}
+.midalbutton{
+    background-color: #2a292a;
+    font-size: medium;
+    font-weight: 600;
+    color: aliceblue;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 10px;
+    margin-top: 8%;
+    cursor: pointer;
+    display: flex;
+}
+.moreinfo{
+    margin-left: 5%;
+}
+.caseimg{
+    list-style: none;
+}
+.midal3{
+    display: flex;
+    margin-top: 7%;
+    justify-content: center;
+    gap: 7%;
+    border: 1px solid black ;
+    background-color: #2a292a;
+    border-radius: 1000px;
+    /* /* width: 1000px; */
+    /* height: 100%;  */
+    padding-top: 3%;
+    padding-bottom: 3%;
+    /* padding-left: ; */
+
+}
+.h1{
+    margin-top: 20%;
+    color: aliceblue;
+}
+.p4{
+    color: aliceblue;
+    margin-top: 3%;
+}
+.buynow{
+    list-style: none;
+    
+}
+.buybutton{
+    list-style: none;
+    margin-top: 10%;
+    background-color: #2a292a;
+    padding: 5%;
+    border-radius: 10px;
+    cursor: pointer;
+    color: aliceblue;
+    font-weight: 600;
+    display: flex;
+}
+.sbag{
+    list-style: none;
+   
+}
+.buy{
+    margin-left: 5%;
+}
+.chooyourstyle{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 7%;
+}
+.Product{
+    display: flex;
+      color: aliceblue;
+      justify-content: center;
+      gap: 10%;
+      margin-top: 10%;
+}
+.black{
+    height: 200px;
+    /* width: 100px; */
+}
+.backblack{
+    border: 1px solid black;
+    background-color: #2a292a;
+    width: 150px;
+    padding-left:10px ;
+    border-radius: 10px;
+    width: 110%;
+}
+.backnightblack{
+    border: 1px solid black;
+    background-color: #2a292a;
+    width: 150px;
+    padding-left:10px ;
+    border-radius: px;
+    margin-top: 10%;
+    border-radius: 10px;
+    width: 110%;
+    
+}.backtwilightgray{
+    border: 1px solid black;
+    background-color: #2a292a;
+    width: 150px;
+    padding-left:10px ;
+    border-radius: 10px;
+    margin-top: 10%;
+    width: 115%;
+}
+.backredblack{
+    border: 1px solid black;
+    background-color: #2a292a;
+    width: 150px;
+    padding-left:10px ;
+    border-radius: 10px;
+    width: 110%;
+}
+.backblue{
+    border: 1px solid black;
+    background-color: #2a292a;
+    width: 150px;
+    padding-left:10px ;
+    border-radius: 10px;
+    margin-top: 10%;
+    width: 110%;
+}
+.nightblack{
+    height: 200px;
+    /* width: 100px; */
+    margin-top: 0%;
+}
+.twilightgray
+{
+    height: 200px;
+    margin-top: 10%;
+    
+}
+.redblack{
+    height: 200px;
+}
+.blue{
+    height: 200px;
+    margin-top: 10%;
+}
+.blackli{
+    display: flex;
+    margin-top: 20%;
+    gap: 15px;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+.blackb{
+   height: 25px;
+   margin-top: 4%;
+   cursor: pointer;
+
+}
+.nightblackli{
+    display: flex;
+    margin-top: 20%;
+    gap: 8px;
+    margin-left: 0%;
+    margin-bottom: 10%;
+}
+.nightblackb{
+    height: 25px;
+   margin-top: 4%;
+   cursor: pointer;
+}
+.twilightgrayli{
+    display: flex;
+    margin-top: 20%;
+    gap: 15px;
+    margin-left: -5%;
+    margin-bottom: 10%;
+}
+.twilightgrayb{
+    height: 25px;
+    margin-top: 4%;
+    cursor: pointer;
+
+}
+.redblackli{
+    display: flex;
+    margin-top: 20%;
+    gap: 15px;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+.redblackb{
+    height: 25px;
+    margin-top: 4%;
+    cursor: pointer;
+}
+.blueli{
+    display: flex;
+    margin-top: 20%;
+    gap: 15px;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+.blueb{
+    height: 25px;
+    margin-top: 4%;
+    cursor: pointer;
+}
+.end{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+.endin{
+    display: flex;
+    gap: 20%;
+    margin-right: 30%;
+   
+    
+}
+.fp1{
+    font-weight: 600;
+    color: aliceblue;
+}
+.fp2{
+    font-weight: 400;
+    color: aliceblue;
+    margin-top: 7%;
+    line-height: 20px;
+}
+.fp3{
+    font-weight: 600;
+    color: aliceblue;
+}
+.fp4{
+    font-weight: 400;
+    color: aliceblue;
+    margin-top: 7%;
+    line-height: 20px;
+}
+.email{
+    display: flex;
+    gap: 10%;
+    color: aliceblue;
+    font-weight: 600;
+    border: 1px solid black ;
+    background-color: #2a292a;
+    padding: 7%;
+    border-radius: 5px;
+    width: 200px;
+    cursor: pointer;
+}
+.icons{
+    margin-top: 20%;
+    display: flex;
+    gap: 30%;
+    margin-bottom: 10%;
+    cursor: pointer;
+   
+}
+.uparrow{
+    margin-left: 50% ;
+    cursor: pointer;
+}
+/* .logo{
+    display: flex;
+} */
+/* .product1{
+    display: flex;
+    
+}  */
